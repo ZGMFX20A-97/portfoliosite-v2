@@ -51,7 +51,7 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router basename="/portfoliosite-v2/">
+    <Router basename={import.meta.env.BASE_URL}>
       <AnimatedRoutes />
     </Router>
   );
