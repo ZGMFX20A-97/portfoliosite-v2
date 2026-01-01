@@ -51,7 +51,7 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfoliosite-v2">
       <AnimatedRoutes />
     </Router>
   );
